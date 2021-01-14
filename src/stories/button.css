@@ -1,0 +1,36 @@
+.storybook-button {
+  height: 3em;
+  border: 0;
+  border-radius: 3em;
+  width: 10em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  color: black;
+  background-color: #ece5dd;
+  text-align: center;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  inset: 0.5em;
+  height: 2em;
+  width: 2em;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.text {
+  height: 3em;
+  padding-left: 1em;
+  line-height: 3em;
+  white-space: nowrap;
+}
+
+.icon {
+  width: 80%;
+  height: 80%;
+  margin-top: 10%;
+}
