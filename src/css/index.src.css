@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@tailwind base;
+
+@font-face {
+  font-family: "Genshin UI";
+  src: url(ja-jp.ttf);
+}
+
+div {
+  font-family: "Genshin UI";
+}
